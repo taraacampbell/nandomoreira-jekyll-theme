@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Think Like A Programmer"
-date: 2016-02-04 09:15:20
+title: "When To Use Arrays vs Hashes"
+date: 2016-02-18 09:15:20
 comments: true
 description: ""
 keywords: ""
