@@ -16,30 +16,30 @@ If statements are very similar to case statements, and have the same functionali
 Both if statements and case statements are ways to compare values, whether it be integers, floats, or strings. If statements are lengthier, and use the conditional “==” operator to compare values, while case doesn’t need this operator. Case implicitly uses “===” in its code, because the word “when” substitutes the need for an operator. For an example, a case statement reads:
 
 
-letter = gets.chomp
-case letter
+	letter = gets.chomp
+	case letter
 
-when “x”, “y”, “z”
-	puts “you’re at the end of the alphabet”
-when “a”, “b”, “c”
-	puts “you’re in the beginning of the alphabet”
-else
-	puts “you’re in the middle”
-end
+	when “x”, “y”, “z”
+		puts “you’re at the end of the alphabet”
+	when “a”, “b”, “c”
+		puts “you’re in the beginning of the alphabet”
+	else
+		puts “you’re in the middle”
+	end
 
 
 Whereas in an if statement, it would read like this:
 
 
-letters = gets.chomp
+	letters = gets.chomp
 
-if “x”, “y”, “z”=== letter
-	puts “you’re at the end of the alphabet”
-elsif “a”, “b”, “c”=== letter
-	puts “you’re in the beginning of the alphabet”
-else
-	puts “you’re in the middle”
-end
+	if “x”, “y”, “z”=== letter
+		puts “you’re at the end of the alphabet”
+	elsif “a”, “b”, “c”=== letter
+		puts “you’re in the beginning of the alphabet”
+	else
+		puts “you’re in the middle”
+	end
 
 
 As you can see, the differences are only in characters, so why would you use one or the other? Well the triple equals, “===” is hidden in the case statement. It is used to compare things to see which group it belongs to. It is called on the when statements, not on the case definition, so often coders can more specifically define things.
