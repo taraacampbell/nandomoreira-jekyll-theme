@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quantum computers"
+title: "Quantum Computers"
 date: 2016-04-14 09:00:15
 comments: true
 description: ""
